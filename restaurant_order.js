@@ -4,7 +4,8 @@ import { fetch } from 'wix-fetch';
 
 // Create elevated versions of secrets functions
 const elevatedGetSecretValue = elevate(secrets.getSecretValue);
-const country = "GB"
+const country = "GB" // or "US" or "CA" or "IN"
+
 
 // Helper to stringify an address object into a formatted string
 function addressToString(addr) {
